@@ -16,8 +16,10 @@ var commentRoutes    = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes      = require("./routes/index")
  
-var url = "https://evening-inlet-78501.herokuapp.com/" || "mongodb://localhost/yelp_camp_v10";
-mongoose.connect(url);
+// var url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp_v10";
+// mongoose.connect(url);
+mongoose.connect("mongodb://ulkish:jack@ds117605.mlab.com:17605/argcamp")
+
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
