@@ -40,18 +40,18 @@ body {
 }
 
 .slideshow li:nth-child(1) { 
-  background-image: url(http://i.imgur.com/K3mPv14.jpg) 
+  background-image: url(https://www.mumwearefine.com/wp-content/uploads/2016/07/refugio-frey-10.jpg) 
 }
 .slideshow li:nth-child(2) { 
-  background-image: url(http://i.imgur.com/SBEmFpv.jpg);
+  background-image: url(https://img.hipcamp.com/image/upload/c_limit,f_auto,h_1200,q_60,w_1920/v1465956250/campground-photos/qpdn0y1zhjmrfyeckdjr.jpg);
   animation-delay: 10s; 
 }
 .slideshow li:nth-child(3) { 
-  background-image: url(http://i.imgur.com/emvhOnb.jpg);
+  background-image: url(https://img.hipcamp.com/image/upload/c_limit,f_auto,h_1200,q_60,w_1920/v1465957502/campground-photos/gxjzmn2lxwlyfxibkxtz.jpg);
   animation-delay: 20s; 
 }
 .slideshow li:nth-child(4) { 
-  background-image: url(http://i.imgur.com/2LSMCmJ.jpg);
+  background-image: url(https://img.hipcamp.com/image/upload/c_limit,f_auto,h_1200,q_60,w_1920/v1467696210/campground-photos/gdapykarezxv2bsakmhm.jpg);
   animation-delay: 30s; 
 }
 .slideshow li:nth-child(5) { 
